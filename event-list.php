@@ -52,7 +52,7 @@ unset($pdo);
         <div class="event-container">
             <?php if (count($events) > 0) : ?>
                 <?php foreach ($events as $event) : ?>
-                    <a href="event-details.php?id=<?php echo $event["id"]; ?>" class="event-card-link">
+                    <a href="event-list.php?id=<?php echo $event["id"]; ?>" class="event-card-link">
                         <div class="event-card">
                             <div class="top">
                                 <h3><?php echo htmlspecialchars($event["title"]); ?></h3>
